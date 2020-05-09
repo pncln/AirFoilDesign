@@ -16,7 +16,7 @@ using Telerik.WinControls.Enumerations;
 
 namespace AirFoilDesign
 {
-    public partial class RadForm1 : Telerik.WinControls.UI.RadForm
+    public partial class mainForm : Telerik.WinControls.UI.RadForm
     {
         public string path_csv = "";
         public string path_dat = "";
@@ -27,7 +27,7 @@ namespace AirFoilDesign
         public string data = "";
         List<ScatterLineSeries> lineSeries_constlvsalph = new List<ScatterLineSeries>();
 
-        public RadForm1()
+        public mainForm()
         {
             InitializeComponent();
         }

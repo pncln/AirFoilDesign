@@ -1,6 +1,6 @@
 ﻿namespace AirFoilDesign
 {
-    partial class RadForm1
+    partial class mainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -39,7 +39,7 @@
             Telerik.WinControls.UI.CartesianArea cartesianArea4 = new Telerik.WinControls.UI.CartesianArea();
             Telerik.WinControls.UI.CartesianArea cartesianArea5 = new Telerik.WinControls.UI.CartesianArea();
             Telerik.WinControls.UI.CartesianArea cartesianArea6 = new Telerik.WinControls.UI.CartesianArea();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RadForm1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.radPageView1 = new Telerik.WinControls.UI.RadPageView();
             this.radPageViewPage6 = new Telerik.WinControls.UI.RadPageViewPage();
             this.radGroupBox3 = new Telerik.WinControls.UI.RadGroupBox();

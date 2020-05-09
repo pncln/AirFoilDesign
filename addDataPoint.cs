@@ -11,10 +11,10 @@ namespace AirFoilDesign
 {
     public partial class addDataPoint : Telerik.WinControls.UI.RadForm
     {
-        private RadForm1 mainForm = null;
+        private mainForm mainForm = null;
         public addDataPoint(Form callingForm)
         {
-            mainForm = callingForm as RadForm1;
+            mainForm = callingForm as mainForm;
             InitializeComponent();
         }
 

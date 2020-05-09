@@ -12,10 +12,10 @@ namespace AirFoilDesign
 
     public partial class addAirfoil : Telerik.WinControls.UI.RadForm
     {
-        private RadForm1 mainForm = null;
+        private mainForm mainForm = null;
         public addAirfoil(Form callingForm)
         {
-            mainForm = callingForm as RadForm1;
+            mainForm = callingForm as mainForm;
             InitializeComponent();
         }
 
